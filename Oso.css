@@ -1,0 +1,110 @@
+body {
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: darkviolet;
+}
+.container{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(202, 126, 234);
+}
+.cabeza{
+    width: 232px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(159, 95, 31);
+    border-radius: 50%;
+}
+.ojos{
+    background-color: white;
+    border-radius: 5px;
+    height: 16px;
+    width: 10px;
+    z-index: 3;
+}
+.ojoD{
+    right: 27%;
+}
+.ojoI{
+    left: 27%;
+}
+.trompa{
+    top: 47%;
+    left: 27.5%;
+    height: 40%;
+    width: 45%;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(212, 170, 114);
+}
+.nariz{
+    top: 0;
+    left: 32.5%;
+    height: 40%;
+    width: 35%;
+    position: relative;
+    border-radius: 50%;
+    background-color: black;
+}
+.orejas {
+    height: 32.5%;
+    width: 32.5%;
+    background-color: rgb(159, 95, 31);
+    border-radius: 50%;
+    top: 0%;
+    z-index: 1;
+}
+
+.orejaD {
+    right: -20px;
+}
+
+.OrejaI {
+    left: -20px;
+}
+
+.orejasD {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: rgb(212, 170, 114);
+    top: 25%;
+    left: 25%;
+}
+.corbatin {
+    height: inherit;
+    width: 100%;
+    top: 92%;
+    z-index: 4;
+}
+.circulo {
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+    background-color: rgb(3, 197, 197);
+    left: 42.5%;
+    top: 5%;
+    z-index: 8;
+}
+.corbatin1 {
+    height: 28%;
+    width: 30%;
+    background-color: rgb(6, 160, 160);
+    position: static;
+}
+
+.corbationD {
+    right: 22%;
+    border-radius: 90% 30% 30% 90% / 50% 50% 50% 50%;
+}
+
+.corbatinI {
+    border-radius: 30% 90% 90% 30% / 50% 50% 50% 50%;
+    left: 22%;
+}
